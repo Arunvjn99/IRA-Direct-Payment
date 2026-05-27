@@ -1,0 +1,69 @@
+html[data-theme='dark'] {
+  --surface-page: #0a0a0f;
+  --surface-card: #111118;
+  --surface-elevated: #1a1a24;
+  --surface-dark: #0a0a0f;
+  --surface-overlay: rgba(0, 0, 0, 0.7);
+  --surface-shell: #030712;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-faint: #475569;
+  --text-inverse: #0f172a;
+  --text-link: #60a5fa;
+
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-active: #1d4ed8;
+  --color-primary-subtle: rgba(59, 130, 246, 0.15);
+  --color-primary-light: rgba(59, 130, 246, 0.12);
+  --color-primary-shadow: rgba(59, 130, 246, 0.25);
+
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.05);
+  --border-focus: #3b82f6;
+  --border-strong: rgba(255, 255, 255, 0.15);
+  --border-blue: rgba(37, 99, 235, 0.3);
+  --border-green: rgba(22, 163, 74, 0.3);
+  --border-amber: rgba(180, 83, 9, 0.4);
+  --border-red: rgba(127, 29, 29, 0.5);
+
+  --status-success: #10b981;
+  --status-success-bg: rgba(16, 185, 129, 0.12);
+  --status-success-text: #34d399;
+  --status-danger: #ef4444;
+  --status-danger-bg: rgba(239, 68, 68, 0.12);
+  --status-danger-text: #fca5a5;
+  --status-warning: #f59e0b;
+  --status-warning-bg: rgba(245, 158, 11, 0.12);
+  --status-warning-text: #fcd34d;
+  --status-info: #3b82f6;
+  --status-info-bg: rgba(59, 130, 246, 0.12);
+  --status-info-text: #93c5fd;
+
+  --input-bg: #1a1a24;
+  --input-border: rgba(255, 255, 255, 0.1);
+  --input-border-focus: rgba(59, 130, 246, 0.5);
+  --input-placeholder: #64748b;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-modal: 0 32px 64px -12px rgba(0, 0, 0, 0.6);
+  --shadow-dropdown: 0 4px 12px rgba(0, 0, 0, 0.45);
+  --shadow-btn: 0 4px 12px rgba(59, 130, 246, 0.3);
+  --shadow-elevated: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+  --chart-blue: #3b82f6;
+  --chart-green: #22c55e;
+  --chart-purple: #a78bfa;
+  --chart-amber: #fbbf24;
+  --chart-grid: rgba(148, 163, 184, 0.2);
+}
+
+.dark input, .dark select, .dark textarea,
+html[data-theme="dark"] input, html[data-theme="dark"] select, html[data-theme="dark"] textarea {
+  background-color: #1a1a24 !important;
+  color: #f1f5f9 !important;
+  border-color: rgba(255, 255, 255, 0.10) !important;
+}
